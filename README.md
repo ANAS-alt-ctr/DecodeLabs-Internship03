@@ -132,10 +132,7 @@ The engine currently matches against 13 industry-standard roles:
 
 ## 🖼️ Screenshot
 
-![Demo Output](<p align="center">
-  <img src="images/project-output.png" width="48%" />
-  <img src="images/project-architecture.png" width="48%" />
-</p>)
+![Demo Output](https://github.com/ANAS-alt-ctr/DecodeLabs-Internship03/blob/main/Project%2001.png)
 
 ---
 
