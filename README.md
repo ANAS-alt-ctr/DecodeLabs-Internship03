@@ -51,35 +51,50 @@ Then enter your skills one by one at the prompt and type `done` when finished.
 ## 📊 Output Example
 
 ```
-Enter your skills (type 'done' when finished):
-Skill 1: python
-Skill 2: machine learning
-Skill 3: sql
-Skill 4: done
+======================================================
+    TECH STACK RECOMMENDER — DecodeLabs Project 3
+======================================================
+Enter your skills one by one. Press Enter after each.
+Type 'done' when finished (minimum 3 skills required).
 
-=======================================================
-   TOP CAREER PATH RECOMMENDATIONS
-=======================================================
-   Profile: python, machine learning, sql
+  Skill 1: Python
+  ✓ Added: python
 
-  🥇  Data Scientist
-      [████████████░░░░░░░░] 60.5% match
-      Builds predictive models and statistical analyses to extract
-      insights from large datasets.
-      ✓ Skills you have : python, machine learning, sql
-      + Skills to learn : pandas, numpy, statistics, tensorflow
+  Skill 2: Deep learning
+  ✓ Added: deep learning
 
-  🥈  ML Engineer
-      [██████████░░░░░░░░░░] 52.3% match
-      Deploys and scales machine learning models in production.
-      ✓ Skills you have : python, machine learning
-      + Skills to learn : docker, mlflow, fastapi, cloud
+  Skill 3: Machine learning
+  ✓ Added: machine learning
 
-  🥉  Data Engineer
-      [████████░░░░░░░░░░░░] 41.0% match
-      Builds data pipelines and manages large-scale data infrastructure.
-      ✓ Skills you have : python, sql
-      + Skills to learn : spark, airflow, kafka, dbt
+  Skill 4: LLMs
+  ✓ Added: llms
+
+  Skill 5: done
+
+======================================================
+  TOP CAREER PATH RECOMMENDATIONS
+======================================================
+  Profile: python, deep learning, machine learning, llms
+
+🥇  Data Scientist                              41.1% match
+    Builds predictive models and statistical analyses to extract insights from large datasets.
+    ✓ Skills you have : python, machine learning, deep learning
+    + Skills to learn : sql, pandas, numpy, statistics
+
+🥈  AI Research Engineer                        40.3% match
+    Advances state-of-the-art AI models and publishes novel research.
+    ✓ Skills you have : python, deep learning, machine learning
+    + Skills to learn : pytorch, research, mathematics, statistics
+
+🥉  ML Engineer                                 24.0% match
+    Deploys and scales machine learning models in production environments.
+    ✓ Skills you have : python, machine learning
+    + Skills to learn : tensorflow, pytorch, mlops, docker
+
+──────────────────────────────────────────────────────
+  Algorithm: TF-IDF weighting + Cosine Similarity
+  Methodology: Content-Based Filtering (IPO Model)
+======================================================
 ```
 
 ---
@@ -115,14 +130,9 @@ The engine currently matches against 13 industry-standard roles:
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Screenshot
 
-> **Note:** Run the script locally and take a screenshot of your terminal output to add here.
-> Replace this section by uploading your screenshot to the repo and using:
-> ```
-> <img width="1003" height="992" alt="image" src="https://github.com/user-attachments/assets/a6925c5b-f7a7-4c49-b9d6-5cf084119be0" />
-)
-> ```
+![Demo Output](screenshot_project03.png)
 
 ---
 
