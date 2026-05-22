@@ -132,7 +132,10 @@ The engine currently matches against 13 industry-standard roles:
 
 ## 🖼️ Screenshot
 
-![Demo Output](screenshot_project03.png)
+![Demo Output](<p align="center">
+  <img src="images/project-output.png" width="48%" />
+  <img src="images/project-architecture.png" width="48%" />
+</p>)
 
 ---
 
